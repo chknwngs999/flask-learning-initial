@@ -27,6 +27,12 @@ and this project WILL ADHERE (as in, in the future) to [Semantic Versioning](htt
 
   - Corresponding SQL tables (user id, background image color/link (separate table?), profile image link, biography text)
 
+## 0.0.3 - 2021-09-21
+
+### Changed
+
+- Edited Procfile (for hosting on heroku)
+
 ## 0.0.2 - 2021-09-21
 
 ### Added
