@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT flask:create_app
+web: waitress-serve --port=$PORT 'flask:create_app'
