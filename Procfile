@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT 'flaskr:__init__'
+web: gunicorn flask:create_app
