@@ -27,6 +27,12 @@ and this project WILL ADHERE (as in, in the future) to [Semantic Versioning](htt
 
   - Corresponding SQL tables (user id, background image color/link (separate table?), profile image link, biography text)
 
+## 1.0.5 - 2021-09-22
+
+### Changed
+
+- Another problem in Procfile, create_app() given 2 args, trying to call __init__.py instead of function now
+
 ## 1.0.4 - 2021-09-22
 
 ### Changed
