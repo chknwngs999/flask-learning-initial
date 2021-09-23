@@ -27,6 +27,17 @@ and this project WILL ADHERE (as in, in the future) to [Semantic Versioning](htt
 
   - Corresponding SQL tables (user id, background image color/link (separate table?), profile image link, biography text)
 
+## 1.0.6 - 2021-09-22
+
+### Changed
+
+- Setup pyproject.toml and poetry.lock for easier dependency installations
+- Removed Procfile changes, replaced waitress with gunicorn
+
+### Deprecated
+
+- Preparing to remove setup.py, setup.cfg, and MANIFEST.in to use poetry
+
 ## 1.0.5 - 2021-09-22
 
 ### Changed
@@ -63,15 +74,9 @@ and this project WILL ADHERE (as in, in the future) to [Semantic Versioning](htt
 
 - Initial Commit
   - Created __init__.py, auth.py, blog.py, db.py, and schema.sql
-
   - Created templates directory, base.html, login and register pages, and index, create, and update pages
-
   - Created static directory and style.css
-
   - Created initial unit tests
-
   - Created gitignore file
-
   - Created MANIFEST.in, setup.cfg, and setup.py for building dist files
-
   - Created README.md and changlog.md
