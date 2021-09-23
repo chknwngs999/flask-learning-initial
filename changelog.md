@@ -27,6 +27,12 @@ and this project WILL ADHERE (as in, in the future) to [Semantic Versioning](htt
 
   - Corresponding SQL tables (user id, background image color/link (separate table?), profile image link, biography text)
 
+## 1.0.3 - 2021-09-22
+
+### Changed
+
+- Edited setup.py to include waitress
+
 ## 1.0.2 - 2021-09-21
 
 ### Changed
