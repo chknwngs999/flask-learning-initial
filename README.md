@@ -2,6 +2,10 @@
 
 This is a sample blog site created by following the official [Flask tutorial](https://flask.palletsprojects.com/en/2.0.x/tutorial/).
 
+# ARCHIVE
+
+I am archiving this. This was supposed to just be me following the tutorial, which I did at first. Then I started trying to deploy it, resulting in many changes that produced no actual results or solved any of the real problems that made my project unable to be deployed to Heroku (i.e. I messed with a lot of things and now I'm restarting. I need to use postgresql instead of sqlite).
+
 ## Installation
 
 This project is not installable as of right now. This may come in the future. I have a wheel file, but I don't know if that works. This will be updated as I learn more.
